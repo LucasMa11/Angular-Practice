@@ -1,0 +1,171 @@
+h1,h5,body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;  
+    margin: 15px auto 15px;
+    width: 320px;  
+}
+
+.Head-portrait{
+    width: 45px;
+    height: 45px;
+    background:url(image/star.jpg) center/cover;
+    border-radius: 50%;
+    align-self:flex-end;
+}
+
+main{
+    width: 375px;
+    flex-flow:row wrap;
+    display: flex;
+}
+
+section{    
+    width: 340px;
+    height: 400px;
+    margin: 0 auto 30px;
+    border-radius:25px;
+    box-shadow:0px 0px 50px 10px rgba(204, 204, 204, 0.64);; 
+}
+
+.section_1{
+    background: url(./image/Odyssey.jpg) center/cover;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section_2{
+    background: url(./image/marlve.gif) center no-repeat;
+    font-size:20px;
+    font-weight:bold; 
+}
+
+video{
+    width: 340px;
+    height:280px;
+    object-fit: fill;
+    border-radius: 25px 25px 0 0 ;
+}
+
+.section_4{
+    font:20px bold;
+}
+
+#fonz{
+    position: absolute;
+    left: 40px;
+}
+
+button{
+    display: block;
+    width: 340px;   
+    height: 50px;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(240, 240, 240, 0.829);
+    text-align: center;  
+    color: #375df5;
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+.top-up{
+    margin-bottom: 30px;
+}
+
+footer{
+    margin-bottom: 20px;
+}
+
+.clause{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.recommend{
+    width: 340px;
+    height: 400px;
+    position: fixed;
+    display: none;
+    border-radius:25px;
+    margin: 0 17.5px 0;
+    background-color: white;
+    animation: spend 1s linear forwards;
+}
+
+@keyframes spend{
+    0%{width:340px;height:400px;border-radius:25px;position:fixed ;overflow: hidden;}
+    80%{top:-20px;height:100%;border-radius:10px; overflow: hidden; }
+    100%{top:0;height:100%;width:100%;border-radius:0px;position:fixed;margin:0;overflow: auto;}
+}
+
+#top{
+    height: 400px;
+    background: url(image/Odyssey.jpg) center/cover;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#fonz_2{
+    height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#top_2{
+    height: 250px;
+    background: url(image/marlve.gif) center/cover;
+
+}
+
+#top_3{
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+    border-radius: 0;
+}
+
+.end{
+    height: 200px;
+    background: #E6E6E6;
+}
+.back{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    /* background: url(./image/back.png) center/cover; */
+    background: gray;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.getit{
+    width:60px;
+    height:25px;
+    font-size: 12px;
+    font-weight: bolder;
+    position: absolute;
+    top: 350px;
+    left:300px;
+}
+
+.sharepage{
+    height: 60px;
+    background:white;
+}
+.share{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+}
